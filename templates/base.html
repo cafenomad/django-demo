@@ -1,0 +1,28 @@
+{% load staticfiles %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-style-type" content="text/css">
+</head>
+<body>
+
+<div class="header">
+  <div class="title">
+   <h1><a href="{% url 'book_top' %}">Books</a></h1>
+  </div>
+</div>
+
+<div class="container">
+{% block content %}
+{% endblock %}
+</div><!-- container -->
+
+<div class="footer">
+  <p>FOOTER</p>
+</div><!-- footer -->
+
+</body>
+</html>
