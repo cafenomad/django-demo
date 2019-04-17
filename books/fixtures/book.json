@@ -1,0 +1,35 @@
+[
+{
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+        "title": "book1",
+        "price": 1000,
+        "memo": "memo1",
+        "created": "2019-04-17T07:19:06.096Z",
+        "updated": "2019-04-17T07:19:06.096Z"
+    }
+},
+{
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+        "title": "book2",
+        "price": 2000,
+        "memo": "memo2",
+        "created": "2019-04-17T07:19:13.788Z",
+        "updated": "2019-04-17T07:19:13.788Z"
+    }
+},
+{
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+        "title": "book3",
+        "price": 3000,
+        "memo": "memo3",
+        "created": "2019-04-17T07:19:23.853Z",
+        "updated": "2019-04-17T07:19:23.853Z"
+    }
+}
+]
