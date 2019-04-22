@@ -31,5 +31,16 @@
         "created": "2019-04-17T07:19:23.853Z",
         "updated": "2019-04-17T07:19:23.853Z"
     }
+},
+{
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+        "title": "book4",
+        "price": 4000,
+        "memo": "memo4",
+        "created": "2019-04-22T04:28:23.537Z",
+        "updated": "2019-04-22T04:28:23.537Z"
+    }
 }
 ]
