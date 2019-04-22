@@ -1,14 +1,21 @@
 {% extends "base.html" %}
+{% load l10n %}
+{% load i18n %}
+{% load tz %}
 
 
 {% block content %}
+<p>{% trans '書籍の一覧です。' %}</p>
+
+{% get_current_timezone as TIME_ZONE %}
+<p>LOCALTIME {% now 'Y.m.d H:i' %}</p>
 <table>
 {% for book in books %}
 <tr>
   <td><a href="{% url 'book_detail' book_id=book.id %}">{{ book.title }}</a></td>
   <td>{{ book.price }}</td>
   <td>{{ book.created }}</td>
-  <td>{{ book.updated }}</td>
+  <td>{{ book.updated|localtime }}</td>
 </tr>
 {% endfor %}
 </table>
